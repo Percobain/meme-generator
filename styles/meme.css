@@ -9,7 +9,7 @@ body {
 
 .form {
     display: grid;
-    grid-template: 40px 40px / 1fr 1fr;
+    grid-template: 100% 100% / 1fr 1fr;
     gap: 17px;
 }
 
@@ -24,6 +24,8 @@ main {
     text-indent: 5px;
     background: rgba(255, 255, 255, 1);
     color: rgba(107, 114, 128, 1);
+    height: 35px;
+    width: 100%;
 }
 
 .form--button {
@@ -34,4 +36,6 @@ main {
     color: rgba(255, 255, 255, 1);
     border: none;
     cursor: pointer;
+    font-size: 16px;
+    opacity: 0px;
 }
